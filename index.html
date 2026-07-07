@@ -274,6 +274,20 @@
   }
   .about-copy p { color: rgba(237,234,226,0.78); font-size: 16.5px; margin-bottom: 18px; }
   .about-copy .lead { font-size: 19px; color: var(--paper); }
+  .skill-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 8px;
+  }
+  .skill-tags span {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 12px;
+    letter-spacing: 0.03em;
+    color: var(--paper);
+    border: 1px solid var(--line-dark);
+    padding: 7px 14px;
+  }
   #spiralSvg { width: 100%; height: auto; }
   .spiral-label {
     font-family: 'IBM Plex Mono', monospace;
@@ -543,6 +557,14 @@
       <p class="lead">Most CI consultants learn methodology from a textbook. I learned it from the line — which is why the frameworks I bring in actually hold up under real production pressure.</p>
       <p>That arc from hourly floor roles to Continuous Improvement Manager isn't a resume detail — it's the reason teams trust the process instead of resisting it. I've been the one asked to adopt someone else's "improvement," and I build engagements that don't repeat that mistake.</p>
       <p>The path wasn't a straight line up — it was a spiral: each role circled back through the same core disciplines at a wider radius, with more scope and more responsibility each time around.</p>
+      <p>That same floor-level habit of measuring everything carries into how I work today — pairing Lean methodology with data analysis to find losses that don't show up until someone actually runs the numbers.</p>
+      <div class="skill-tags">
+        <span>Python</span>
+        <span>R</span>
+        <span>Tableau</span>
+        <span>AWS</span>
+        <span>Data Analysis</span>
+      </div>
     </div>
     <div>
       <svg id="spiralSvg" viewBox="0 0 460 460" xmlns="http://www.w3.org/2000/svg" aria-label="Career spiral from Focused Improvement Coordinator to founder of TW Performance Solutions"></svg>
@@ -559,7 +581,7 @@
     <div class="results-grid reveal">
       <div class="result-card">
         <span class="result-num mono">30%</span>
-        <p>Increase in capacity utilization from cross-functional technology transfer projects at Mondelez International.</p>
+        <p>Increase in capacity utilization from cross-functional technology transfer projects at a global food manufacturer.</p>
       </div>
       <div class="result-card">
         <span class="result-num mono">15%</span>
